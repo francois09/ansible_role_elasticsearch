@@ -1,7 +1,7 @@
-EMPTY Ansible role
-==================
+Elasticsearch Ansible role
+==========================
 
-Role to manage EMPTY.
+Role to manage basic elasticsearch installation.
 
 Requirements
 ------------
@@ -11,8 +11,8 @@ No requirements
 Role Variables
 --------------
 
-`empty__install` For install only (default: False)
-`empty__configure` For configuration  (default: False)
+`elasticsearch__install` For install only (default: False)
+`elasticsearch__configure` For configuration  (default: False)
 
 Dependencies
 ------------
