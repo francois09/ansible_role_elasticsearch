@@ -1,0 +1,8 @@
+---
+# Default do nothing
+elasticsearch__install: False
+elasticsearch__configure: False
+
+# defaults file for empty
+elasticsearch__default_packages:
+  - elasticsearch
