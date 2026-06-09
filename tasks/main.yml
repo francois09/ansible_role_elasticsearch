@@ -1,8 +1,8 @@
 ---
-- name: Add ES package key
-  apt_key:
-    url: https://artifacts.elastic.co/GPG-KEY-elasticsearch
-    keyring: /etc/apt/trusted.gpg.d/elasticsearch-keyring.gpg
+# - name: Add ES package key
+#   apt_key:
+#     url: https://artifacts.elastic.co/GPG-KEY-elasticsearch
+#     keyring: /etc/apt/trusted.gpg.d/elasticsearch-keyring.gpg
 
 - name: Add ES repository
   apt_repository:
